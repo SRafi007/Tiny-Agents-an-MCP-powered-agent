@@ -1,0 +1,7 @@
+# Virtual environments
+env/
+tiny_venv/
+
+# Environment variables
+.env
+.env.local
