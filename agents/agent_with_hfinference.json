@@ -1,0 +1,15 @@
+{
+    "name": "playwright-agent",
+    "description": "Agent with Playwright MCP server",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "provider": "hf-inference",
+    "servers": [
+        {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest"
+            ]
+        }
+    ]
+}

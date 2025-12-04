@@ -1,0 +1,15 @@
+{
+    "name": "playwright-agent",
+    "description": "Agent with Playwright MCP server",
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "provider": "nebius",
+    "servers": [
+        {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest"
+            ]
+        }
+    ]
+}
